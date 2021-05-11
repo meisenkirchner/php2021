@@ -15,7 +15,7 @@
             <h1>Gästebuch</h1>
         </div>
     </div>
-    <form action="index.php" method="POST">
+    <form action="display.php" method="POST">
         <div class="form-group">
             <label class="control-label col-sm-2" for="name">Name:</label>
             <div class="col-sm-10">
@@ -40,41 +40,6 @@
             </div>
         </div>
     </form>
-</div>
-
-<div class="container">
-<?php
-$name = '[NAME]';
-$email = '';
-$text = '[TEXT]';
-
-$name = $_POST['name'];
-$email = $_POST['email'];
-$text = $_POST['text'];
-
-$prev = file_get_contents("./kommentare.txt");
-echo $prev;
-if(!($text == "" || $name == "")) {
-//$out = "<b>$name</b><br><p>$text</p><br><br>";
-    $out = '
-    <div class="row mes" style="
-    border-top: solid black 2px;
-    border-bottom: solid black 2px;">
-      <div class="col-12" style="
-    font-weight: bold !important;
-    margin-bottom: 0;">
-          <h6 class="mheader">' . $name . '</h6>
-      </div>
-      <div class="col-12 mtext" style="
-    border-top: solid black 1px;">
-        <p class="text">' . $text . '</p>
-      </div>
-    </div>
-    ';
-    echo $out;
-    file_put_contents("./kommentare.txt", $out, FILE_APPEND);
-}
-?>
 </div>
 </body>
 </html>

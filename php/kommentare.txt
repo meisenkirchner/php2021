@@ -5,11 +5,11 @@
       <div class="col-12" style="
     font-weight: bold !important;
     margin-bottom: 0;">
-          <h6 class="mheader">Na</h6>
+          <h6 class="mheader">Test4</h6>
       </div>
       <div class="col-12 mtext" style="
     border-top: solid black 1px;">
-        <p class="text">t e x t</p>
+        <p class="text">asdfgh</p>
       </div>
     </div>
     
@@ -19,11 +19,39 @@
       <div class="col-12" style="
     font-weight: bold !important;
     margin-bottom: 0;">
-          <h6 class="mheader">Bla</h6>
+          <h6 class="mheader">Test3</h6>
       </div>
       <div class="col-12 mtext" style="
     border-top: solid black 1px;">
-        <p class="text">Test</p>
+        <p class="text">Test3&lt;br&gt;teee</p>
+      </div>
+    </div>
+    
+    <div class="row mes" style="
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;">
+      <div class="col-12" style="
+    font-weight: bold !important;
+    margin-bottom: 0;">
+          <h6 class="mheader">Test2</h6>
+      </div>
+      <div class="col-12 mtext" style="
+    border-top: solid black 1px;">
+        <p class="text">Test2</p>
+      </div>
+    </div>
+    
+    <div class="row mes" style="
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;">
+      <div class="col-12" style="
+    font-weight: bold !important;
+    margin-bottom: 0;">
+          <h6 class="mheader">Test1</h6>
+      </div>
+      <div class="col-12 mtext" style="
+    border-top: solid black 1px;">
+        <p class="text">Test1</p>
       </div>
     </div>
     
